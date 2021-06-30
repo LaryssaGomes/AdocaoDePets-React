@@ -1,4 +1,4 @@
-Descrição do projeto 🚀
+# Descrição do projeto 🚀
 
 Trata-se da home de uma página de ação de pets.
 link da publicação no meu linkdin:  
