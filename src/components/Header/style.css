@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cabin", Arial;
+  color: #222222;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*Menu*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.nav-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*Efeito*/
+.nav-bar ul li a {
+  position: relative;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.nav-bar ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3d3d3d;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.5s;
+}
+.nav-bar ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3d3d3d;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: all 0.5s;
+}
+.nav-bar ul li a:hover:before,
+.nav-bar ul li a:hover::after {
+  transform: scaleX(1);
+}
+/*Ajustando o tamanho*/
+
+@media (max-width: 700px) {
+  .logo {
+    margin: 20px auto;
+  }
+  .nav-bar ul li {
+    height: 30px;
+  }
+  .nav-bar ul {
+    justify-content: center;
+  }
+}

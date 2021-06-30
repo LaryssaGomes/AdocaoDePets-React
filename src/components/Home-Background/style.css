@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+}
+.circle {
+  position: absolute;
+  z-index: -999;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: #fda239;
+  top: -35%;
+  right: -10%;
+}
+.img-dog {
+  max-width: 100%;
+  height: auto;
+}
+
+.home div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .home div h1 {
+    margin-left: 30px;
+  }
+}

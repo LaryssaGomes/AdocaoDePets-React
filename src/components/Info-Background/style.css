@@ -1,0 +1,120 @@
+.hello {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hello-info {
+  position: relative;
+}
+.orange-bar {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(10deg);
+  margin: 0;
+}
+.circular-bar {
+  margin: -1px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fda239;
+}
+.bar-1 {
+  width: 380px;
+}
+.bar-2 {
+  width: 610px;
+}
+.bar-3 {
+  width: 670px;
+}
+.bar-4 {
+  width: 660px;
+}
+.bar-5 {
+  width: 630px;
+}
+.bar-6 {
+  width: 610px;
+}
+.bar-7 {
+  width: 630px;
+}
+.bar-8 {
+  width: 380px;
+}
+.img-pets img {
+  margin-top: -350px;
+  margin-left: 130px;
+  width: 400px;
+  position: absolute;
+}
+.text-info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.btn-adoption {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #fda239;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s linear 0s;
+}
+.btn-adoption:before {
+  content: "🎔";
+  opacity: 0;
+  font-size: 0px;
+  transition: all 0.2s linear 0s;
+}
+
+.btn-adoption:hover::before {
+  opacity: 1;
+  font-size: 20px;
+  text-indent: 0px;
+  margin: auto 8px auto 0px;
+}
+@media (max-width: 700px) {
+  .circular-bar {
+    height: 30px;
+  }
+  .bar-1 {
+    width: 280px;
+  }
+  .bar-2 {
+    width: 310px;
+  }
+  .bar-3 {
+    width: 370px;
+  }
+  .bar-4 {
+    width: 360px;
+  }
+  .bar-5 {
+    width: 330px;
+  }
+  .bar-6 {
+    width: 310px;
+  }
+  .bar-7 {
+    width: 330px;
+  }
+  .bar-8 {
+    width: 280px;
+  }
+  .img-pets img {
+    margin-top: -200px;
+    margin-left: 90px;
+    width: 200px;
+    position: absolute;
+  }
+}
