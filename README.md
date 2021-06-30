@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Trata-se da home de uma página de ação de pets.
+Readme em construção
 
 ## Available Scripts
 
