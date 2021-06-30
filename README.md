@@ -1,20 +1,17 @@
-# Getting Started with Create React App
+Descrição do projeto 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Trata-se da home de uma página de ação de pets.
+link da publicação no meu linkdin:  
 Readme em construção
 
 ## Available Scripts
 
-In the project directory, you can run:
+No diretório do projeto, você pode executar:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Executa o aplicativo no modo de desenvolvimento. \
+Abrir [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
 ### `yarn test`
 
